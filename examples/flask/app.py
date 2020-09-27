@@ -2,6 +2,9 @@ from flask import Flask
 APP = Flask(__name__)
 
 
+#"eks-fargate-pods.amazonaws.com",
+#"eks.amazonaws.com"
+#"Service": "ec2.amazonaws.com"
 @APP.route('/')
 def hello_world():
     return 'Hello, World from Flask!\n'
